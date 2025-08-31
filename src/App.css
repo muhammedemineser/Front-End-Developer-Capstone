@@ -1,0 +1,201 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+    max-width:90vw;
+    overflow-x:hidden;
+    margin:0 auto;
+    font-family: 'Playfair Display', serif;
+}
+
+ul, li {
+    display: inline;
+}
+
+#logo {
+    width:30vw;
+    margin: 2vh auto;
+    height: 15vh;
+    display: block;
+}
+
+.navi {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: rgb(51, 49, 49);
+    border-radius: 15px;
+    height: 7vh;
+    text-decoration: none;
+    padding-top: 1.5vh;
+    align-items: center;
+    width: 90vw;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2vh;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+li a:hover {
+    color: #558850;
+}
+
+.hero {
+    background-image: url(assets/food_bg.jpg);
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 4vh;
+    padding: 15px;
+    white-space: wrap;
+    border-radius: 30px;
+}
+
+h4 {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    color: #2E4A2B;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.food_col {
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.3rem 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Playfair Display', serif;
+  color: #2E4A2B;
+  overflow: hidden;
+}
+
+.food_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;        
+  gap: 1rem;               
+}
+
+.food_col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#food_1::before {
+  background-image: url('assets/food_1.jpg');
+}
+
+#food_2::before {
+  background-image: url('assets/food_2.jpg');
+}
+
+#food_3::before {
+  background-image: url('assets/food_3.jpg');
+}
+
+.food_col {
+  padding-top: 170px;
+}
+
+img {
+    max-width: 100%;
+    height: 10vh;
+    display: inline-block;
+}
+
+footer p {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2E4A2B;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-icon {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.address,
+.phone {
+  margin: 5px 0;
+}
+
+.hero:hover, .food_col:hover, .footer-icon:hover, .bookTable:hover {
+    transform: scale(1.02);
+}
+
+.hero,
+.food_col,
+.footer-icon,
+.bookTable {
+  transition: transform 0.3s ease;
+}
+
+.bookBtn {
+  background-color: #f4ce14; /* Zitronengelb – passend zum Branding */
+  color: #333;               /* Dunkle Schrift für Lesbarkeit */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.bookBtn:hover {
+  background-color: #e3bc0f;
+}
+
+.font-medium {
+  display: flex;
+}
+
+h4 {
+  margin: 2rem 0;
+}
