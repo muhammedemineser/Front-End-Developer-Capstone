@@ -1,12 +1,14 @@
-# React + Vite
+# Front-End Developer Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
+This repository contains the project I developed during the Capstone Project of the Meta Front-End Developer course.
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feel free to explore and enjoy the experience!
 
-## Expanding the ESLint configuration
+## You can clone it to your local device by pasting the following into your terminal: git clone https://github.com/muhammedemineser/Front-End-Developer-Capstone.git
+than: npm install, npm run dev, npm test
+## You can preview it in your online browser on https://muhammedemineser.github.io/Front-End-Developer-Capstone/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Excited to review your work
+
+Thank you for your time!
