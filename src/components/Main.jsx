@@ -1,6 +1,6 @@
 import React from 'react'
 import restaurantImage from "../assets/restaurant.jpg"
-import { BookTable } from './BookTable'
+import { BookTable } from './BookingForm'
 
 export const Main = () => {
   return (
